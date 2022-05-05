@@ -10,5 +10,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: controller
-  newName: quay.io/ansible/awx-operator
-  newTag: latest
+  newName: https://github.com/mmedina116/awx-operator
+  newTag: 0.21.1
