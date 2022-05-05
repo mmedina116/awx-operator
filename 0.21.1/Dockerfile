@@ -1,4 +1,4 @@
-FROM mmedinaa/ansible-operator3:v1.20.3
+FROM mmedinaa/ansible-operator:v1.20.2
 
 
 ARG DEFAULT_AWX_VERSION
